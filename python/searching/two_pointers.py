@@ -18,7 +18,7 @@ def twoPointers(arr, target):
         else:
             high -= 1
 
-    return false
+    return False
 
 
 # Implementation
