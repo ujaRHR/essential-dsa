@@ -1,20 +1,24 @@
 // Selection Sort
-// Swapping min_val with actual index
 
 const arr = [
-  10, 75, 30, 45, 20, 65, 50, 5, 90, 35, 100, 55, 40, 15, 80, 25, 70, 60, 85, 95
+  10, 5, 30, 45, 20, 65, 50, 75, 90, 35, 100, 55, 40, 15, 80, 25, 70, 60, 85, 95
 ];
 
 function selectionSort(arr) {
-  let new_arr = [];
-  let minimum = arr[0];
+  for (let x = 0; x < arr.length; x++) {
+    let currentMin = arr[x];
+    let minIndex = x;
 
-  while (low < high) {
-    const sum = arr[low] + arr[high];
+    for (let y = x + 1; y < arr.length; y++) {
+      if (arr[y] < currentMin) {
+        currentMin = arr[y];
+        minIndex = y;
+      }
+    }
 
-    if (sum === target) return [low, high];
-    else if (sum < target) low++;
-    else high--;
+    let currentValue = arr[x];
+    arr[x] = currentMin;
+    arr[minIndex] = currentValue;
   }
 
   return arr;
