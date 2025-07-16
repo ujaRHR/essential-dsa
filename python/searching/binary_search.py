@@ -4,7 +4,7 @@
 arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
 
 
-def binarySearch(arr, target):
+def binary_search(arr, target):
     low = 0
     high = len(arr) - 1
 
@@ -22,5 +22,5 @@ def binarySearch(arr, target):
 
 
 # Implementation
-result = binarySearch(arr, 60)
+result = binary_search(arr, 60)
 print(result)

@@ -4,7 +4,7 @@
 arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
 
 
-def twoPointers(arr, target):
+def two_pointers(arr, target):
     low = 0
     high = len(arr) - 1
 
@@ -22,5 +22,5 @@ def twoPointers(arr, target):
 
 
 # Implementation
-result = twoPointers(arr, 175)
+result = two_pointers(arr, 175)
 print(result)

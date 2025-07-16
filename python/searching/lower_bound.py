@@ -4,7 +4,7 @@
 arr = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
 
 
-def lowerBound(arr, target):
+def lower_bound(arr, target):
     low = 0
     high = len(arr)
 
@@ -20,5 +20,5 @@ def lowerBound(arr, target):
 
 
 # Implementation
-result = lowerBound(arr, 70)
+result = lower_bound(arr, 70)
 print(result)
