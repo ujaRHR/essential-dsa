@@ -24,4 +24,4 @@ print(result)
 
 
 # Best    Average     Worst       Space
-# O(n²)   O(n²)       O(n²)       O(1)
+# O(n)   O(n²)       O(n²)       O(1)
