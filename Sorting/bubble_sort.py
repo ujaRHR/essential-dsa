@@ -18,3 +18,7 @@ def bubble_sort(arr):
 # Implementation
 result = bubble_sort(arr)
 print(result)
+
+
+# Best    Average    Worst    Space
+# O(n)    O(n²)      O(n²)    O(1)
