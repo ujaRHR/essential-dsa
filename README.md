@@ -1,6 +1,6 @@
-### I am updating this repository slowly... including the Go version too.
+##### I am slowly updating this repository (including the Go version)
 
-- Reference: https://www.hackerearth.com/practice/algorithms/
+- Reference: https://roadmap.sh/datastructures-and-algorithms
 
 #### 🌳 Tree View:
 
