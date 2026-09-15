@@ -4,11 +4,11 @@
 
 #### 🌳 Tree View:
 
-+ Linked List
++ **Linked List**
   + [SinglyLinkedList.go](./Linked%20List/SinglyLinkedList.go)
   + [SinglyLinkedList.js](./Linked%20List/SinglyLinkedList.js)
   + [SinglyLinkedList.py](./Linked%20List/SinglyLinkedList.py)
-+ Searching
++ **Searching**
   + [binary_search.go](./Searching/binary_search.go)
   + [binary_search.js](./Searching/binary_search.js)
   + [binary_search.py](./Searching/binary_search.py)
@@ -21,7 +21,7 @@
   + [upper_bound.go](./Searching/upper_bound.go)
   + [upper_bound.js](./Searching/upper_bound.js)
   + [upper_bound.py](./Searching/upper_bound.py)
-+ Sorting
++ *Sorting*
   + [bubble_sort.go](./Sorting/bubble_sort.go)
   + [bubble_sort.js](./Sorting/bubble_sort.js)
   + [bubble_sort.py](./Sorting/bubble_sort.py)
