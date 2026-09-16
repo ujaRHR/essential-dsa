@@ -10,10 +10,33 @@ func mergeSort(arr []int) []int {
 	}
 
 	mid := len(arr) / 2
+	left := mergeSort(arr[0:mid])
+	right := mergeSort(arr[mid:])
 
+	return merge(left, right)
 }
 
+func merge(left, right []int) []int {
+	result := []int{}
+	leftIdx, rightIdx := 0, 0
+
+	for leftIdx < len(left) && rightIdx < len(right) {
+		if left[leftIdx] < right[rightIdx] {
+			result = append(result, left[leftIdx])
+			leftIdx++
+		} else {
+			result = append(result, right[rightIdx])
+			rightIdx++
+		}
+	}
+
+	result = append(result, left[leftIdx:]...)
+	result = append(result, right[rightIdx:]...)
+
+	return result
+}
+
+// Implementation
 func main() {
-	result := mergeSort(arr)
-	fmt.Println(result)
+	fmt.Println(mergeSort(arr))
 }
