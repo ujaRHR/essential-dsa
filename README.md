@@ -36,3 +36,6 @@
   + [selection_sort.go](./Sorting/selection_sort.go)
   + [selection_sort.js](./Sorting/selection_sort.js)
   + [selection_sort.py](./Sorting/selection_sort.py)
+  + [quick_sort.go](./Sorting/quick_sort.go)
+  + [quick_sort.js](./Sorting/quick_sort.js)
+  + [quick_sort.py](./Sorting/quick_sort.py)
